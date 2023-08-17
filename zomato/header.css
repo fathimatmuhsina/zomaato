@@ -1,0 +1,252 @@
+.head-section{
+    width: 100%;
+<<<<<<< HEAD
+    background-color: #0c426f;
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+    padding-top: 6.5px;
+}
+
+.logo{
+ flex-direction: row;
+ flex: 1;
+ padding-left: 71px;
+
+}
+
+.date-search{
+    flex:1;
+   padding-top: 5px;
+}
+.date{
+    color:aliceblue;
+    font-size: 12px;
+}
+.date a{
+    text-decoration: none;
+    color:aliceblue;
+    cursor: pointer;
+}
+.search{
+    margin-top: 15px;
+    padding-top: 5px;
+    background-color:rgb(21, 76, 122);
+    border: none;
+    color:#dce8f2;
+    padding-left: 10px;
+    padding-bottom: 5px;;
+}
+.search-button{
+    background-color: #0a3559;
+    border: 1px solid #0a3559;
+    color: #dce8f2;
+    padding-top:3.5px;
+    padding-bottom: 4px;
+    margin-left: -5px;
+    cursor:pointer;
+    transition:0.5s;
+    
+}
+.search-button:hover{
+    background-color: #eca50c;
+}
+ /* head bottom section */
+ .head-bottom-section{
+    width: 100%;
+    height: 45px;
+    background: #0c426f;
+    border-top: 1px solid rgb(31, 83, 126);
+    font-size: 0.923em;
+    position: relative;
+    z-index: 20;
+    }
+    .link-section{
+        width:60%;
+        padding-top: 2px;
+        height: 40px;
+        margin-left: 20%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    .link,.link-home{
+        white-space: nowrap;
+        border-left: 1px solid #1f537e ;
+        padding-top:10px;
+         padding-bottom: 15px;
+        padding-left: 35px;
+        padding-right: 30px;
+        /* border-top:4px solid ; */
+        
+        
+    }
+    .link a ,.link-home a{
+        text-decoration: none;
+        color:#fff;
+        font-weight: bold;
+        font-size: 12px;
+        
+    }
+    .link-home {
+        border-top:4px solid #eca50c;
+        background-color: #1f537e;
+    }
+    .link:hover{
+        background-color: #1f537e;
+        cursor: pointer;
+    }
+    
+   
+=======
+    height: 570px;
+    margin: 0;
+    background-image:url(images/81f3ff974d82520780078ba1cfbd453a1583259680.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.head-top{
+   
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.left-head{
+ 
+   justify-content: center;
+   align-items: center;
+    display: flex;
+    height: 100px;
+
+
+}
+.left-head a{
+    text-decoration: none;
+    color: white;
+}
+.left-head img{
+    height: 15px;
+    width: 15px;
+    
+}
+.right-head{
+    display: flex;
+    flex: 1;
+    
+    /* justify-content: space-between; */
+    
+    align-items: center;
+    
+}
+.right-head a{
+
+    margin-left: 50px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+.right-head img{ 
+    height: 40px;
+    margin-right:-35px;
+
+}
+
+.logo-section{
+    margin-top: 3%;
+   display: flex;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.logo img{
+    margin-top: -100px;
+   width:250px;
+    height: 70px;
+
+}
+.description {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+
+}
+.search-location{
+    display: grid;
+    grid-template-columns:30px 250px 10px 30px 2fr;
+}
+
+.a{
+    
+    /* margin-left: 60px; */
+    height: 60px;
+   border-radius: 8px;
+   background-color: white;
+   border: none;
+    width: 40px;
+} 
+.b{
+    
+    /* margin-left: 60px; */
+    margin-top: 20px;
+    height: 20px;
+    z-index: 1;
+    border: none;
+   margin-left: -55px;
+   border-color: rgb(204, 201, 201);
+    width: 40px;
+    background-color: white;
+    border-right: 2px solid gray;
+} 
+.b img{
+    z-index: 1;
+    height:20px;
+    width: 15px;
+
+}
+.b img:hover{
+    cursor: pointer;
+}
+.c{
+    /* margin-left: 60px; */
+    z-index: 2;
+    margin-left:-20px ;
+    height: 60px;
+   border-radius: 8px;
+   background-color: rgb(255, 255, 255);
+   border: none;
+    width: 60px;
+  
+   
+}
+.c img{
+    height: 25px;
+   
+}
+#loc {
+   
+    padding: 20px  50px 20px 0px;
+    border-radius: 7px;
+    border:none;
+    font-size:17px;
+    color: gray;
+}
+#search {
+    width:300px;
+    display: flex;
+    flex: 1;
+    padding: 20px 100px 20px 25px;
+    margin-left: -10px;
+    border-radius: 7px;
+    border: none;
+    font-size:17px;
+    color: gray;
+}
+>>>>>>> f84fa36 (final)
